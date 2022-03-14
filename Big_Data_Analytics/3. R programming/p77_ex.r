@@ -1,4 +1,4 @@
-x=read.csv("p77_ex.csv",header=T)
+x=read.csv("p77_ex_Taiwan.csv",header=T)
 sum(x$Resident)
 x$Density=x$Resident/x$Area
 x$Density

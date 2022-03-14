@@ -1,4 +1,4 @@
-x=read.csv("p53_ex.csv",sep=",",header=T)
+x=read.csv("p53_ex_finalscore_exercise.csv",sep=",",header=T)
 fs = x[,2]*0.3 + x[,3]*0.3 + x[,4]*0.4
 fs#列出最終成績
 length(fs[fs<60])#找出有幾個人低於60分
