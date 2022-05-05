@@ -1,5 +1,5 @@
 library(leaflet)
-UserIcon <- makeIcon(iconUrl = "p74_TRA01.png",
+UserIcon <- makeIcon(iconUrl = "p74_TRA01.png",#請用透明背景
                      iconWidth = 30, iconHeight = 30)#自製圖標
 m = leaflet()
 m = addTiles(m)

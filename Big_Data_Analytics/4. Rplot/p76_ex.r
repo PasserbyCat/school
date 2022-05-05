@@ -7,5 +7,5 @@ UserIcon <- makeIcon(iconUrl = "p76_ex_MRT.png",
 m = leaflet(data = AQX ) %>% 
   addTiles() %>%
   addMarkers(~lon, ~lat, icon = 
-               UserIcon,popup=AQX$id)
+               UserIcon,popup=~id)
 m
