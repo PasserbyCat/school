@@ -10,7 +10,7 @@ shinyServer(function(input, output) {
   })
   
   output$mpgPlot <- renderLeaflet({#記得要使用leaflet
-    tix = which(colnames(raw)==as.character(input$Type)) #取該指標的數值
+    tix = which(colnames(raw)==as.character(input$Type))#找到他的column位置
     aq = raw[,c(nix,tix,lonix,latix)]
     colnames(aq) = c("SiteName","Value","Longitude","Latitude")
     aq$Value = as.numeric(aq$Value)
