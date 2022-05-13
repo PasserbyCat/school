@@ -11,7 +11,7 @@ shinyUI(fluidPage(
     mainPanel(
       h3(textOutput("caption", container = span)),
       verbatimTextOutput("summary"),      
-      DT::dataTableOutput("view")#可讓使用者對資料表做調整
+      DT::dataTableOutput("view")#可讓使用者對資料表做調整(說明使用DT套件)
     )
   )
 ))
