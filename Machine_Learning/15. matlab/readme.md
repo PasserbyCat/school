@@ -49,6 +49,9 @@ matlab軟體實作
             CLASSIFICATION LEARNER>OPTIONS>Costs(可調整各格的權重，權重越高該區錯誤率越低，因為越看重其正確率)
             CLASSIFICATION LEARNER>MODELS>Medium KNN>Misclassification Costs: Custom(可察看權重)
             CLASSIFICATION LEARNER>EXPORT>Export Model>Export Model>OK
+7. 儲存.mat檔 : HOME>VARIABLE>Save Workspace(可將workspace的指令記住並記得參數)
+                可在參數區選擇想要儲存的參數(Ctrl可多選)
+                APP操作到一半也可儲存(APP_name>FILE>Save Session)，想要使用時，進到APP(APP_name>FILE>Load Session)即可讀取上次的操作
 其他
 1. 在ex4_2_predicting_RUL.m這個檔案裡有其中一種預測RUL的方法(預測RUL的方法共有三大類型)
 2. 在matlab上方有個"?"顯示help，會顯示搜尋視窗，有各種工具箱以及他的範例
