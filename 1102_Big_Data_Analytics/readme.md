@@ -1,4 +1,4 @@
-該課程使用R語言
+該課程使用R語言，從R的基礎概念教起，進行BI與AI的呈現。
 
 1. Class information->本課程分數及上課進度
 2. Introduction->什麼是大數據、有什麼資料來源
