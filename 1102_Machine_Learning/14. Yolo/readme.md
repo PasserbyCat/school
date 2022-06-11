@@ -1,4 +1,4 @@
-本code無註解
+本code無註解(使用colab)
 1. LabelImg安裝->p4
 2. 準備Dataset->p7
 3. YOLO->p17
