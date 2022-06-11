@@ -1,0 +1,8 @@
+[Evaluation Result]
+estimate FPS float = 20.6549
+total time = 48.4147 ms
+total theoretical covolution time = 12.2315 ms
+average DRAM bandwidth = 0.32729 GB/s
+MAC efficiency to total time = 25.264 %
+MAC idle time = 5.19559 ms
+MAC running time = 43.2191 ms

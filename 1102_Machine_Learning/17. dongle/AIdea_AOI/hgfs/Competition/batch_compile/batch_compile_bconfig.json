@@ -1,0 +1,1 @@
+{"compile_cfg": "/data1/batch_compile/batch_compile_config.json", "models": [{"id": 32768, "version": "0526", "path": "/data1/fpAnalyser/new_unpruned_model_opt.quan.wqbi.bie"}]}

@@ -1,0 +1,40 @@
+[tool][info][batch_compile.cc:543][BatchCompile] compiling new_unpruned_model_opt.quan.wqbi.bie
+[common][info][compile.cc:59][LoadCfg] Loading config.
+[piano][info][graph_gen.cc:44][LoadBieModel] Loading bie model.
+[piano][info][graph_gen.cc:49][LoadBieModel] Creating graph.
+[piano][info][graph_gen.cc:84][GenerateGraph] Model [/data1/fpAnalyser/new_unpruned_model_opt.quan.wqbi.bie] is generated from optimized graph, skip graph optimization
+[common][info][mozart_graph_gen.cc:25][UpdateGraph] Working on hardware relevant optimizations.
+[common][info][mozart_graph_gen.cc:34][UpdateGraph] Working on graph post process
+[cmd][info][cmd_generator.cc:352][GenCmds] Generate commands based on [53] cmd nodes
+[cmd][info][cmd_generator.cc:1306][RemoveRedundantConfCmd] 2563 out of 13946 CONF cmds are optimized out
+[common][info][compile.cc:310][MozartBackendCompile] input_size [200704], wt_size [12552352], cmd_size [55280], dram_size [458752], sram_size [524288], fw_code_size [160]
+[common][info][compile.cc:365][CompileImpl] Compilation completed.
+[tool][info][batch_compile.cc:574][LayoutBins] Re-layout binaries
+[tool][info][batch_compile.cc:623][LayoutBins] output start: 0x600310a0, end: 0x600310a0
+[tool][info][batch_compile.cc:543][BatchCompile] compiling new_unpruned_model_opt.quan.wqbi.bie
+[common][info][compile.cc:59][LoadCfg] Loading config.
+[piano][info][graph_gen.cc:44][LoadBieModel] Loading bie model.
+[piano][info][graph_gen.cc:49][LoadBieModel] Creating graph.
+[piano][info][graph_gen.cc:84][GenerateGraph] Model [/data1/fpAnalyser/new_unpruned_model_opt.quan.wqbi.bie] is generated from optimized graph, skip graph optimization
+[common][info][mozart_graph_gen.cc:25][UpdateGraph] Working on hardware relevant optimizations.
+[common][info][mozart_graph_gen.cc:34][UpdateGraph] Working on graph post process
+[cmd][info][cmd_generator.cc:352][GenCmds] Generate commands based on [53] cmd nodes
+[cmd][info][cmd_generator.cc:1306][RemoveRedundantConfCmd] 2563 out of 13946 CONF cmds are optimized out
+[common][info][compile.cc:310][MozartBackendCompile] input_size [200704], wt_size [12552352], cmd_size [55280], dram_size [458752], sram_size [524288], fw_code_size [160]
+[common][info][compile.cc:365][CompileImpl] Compilation completed.
+[tool][info][batch_compile.cc:733][CombineAllBin] Combine all bin files of all models into all_models.bin
+[tool][info][batch_compile.cc:809][WriteFwInfo] Generate firmware info to fw_info.txt & fw_info.bin
+[tool][info][batch_compile.cc:675][VerifyOutput] 
+=> 1 models
+[tool][info][batch_compile.cc:683][VerifyOutput]      id: 32768
+[tool][info][batch_compile.cc:684][VerifyOutput]      version: 0x526
+[tool][info][batch_compile.cc:689][VerifyOutput]      addr: 0x60000000, size: 0x31000
+[tool][info][batch_compile.cc:689][VerifyOutput]      addr: 0x60031000, size: 0xa0
+[tool][info][batch_compile.cc:689][VerifyOutput]      addr: 0x600310a0, size: 0x70000
+[tool][info][batch_compile.cc:689][VerifyOutput]      addr: 0x600a10a0, size: 0xd7f0
+[tool][info][batch_compile.cc:689][VerifyOutput]      addr: 0x600ae890, size: 0xbf88a0
+[tool][info][batch_compile.cc:689][VerifyOutput]      addr: 0x60ca7130, size: 0xa0
+[tool][info][batch_compile.cc:692][VerifyOutput] 
+
+[tool][info][batch_compile.cc:696][VerifyOutput]   end addr 0x60ca71d0, 
+[tool][info][batch_compile.cc:698][VerifyOutput] total bin size 0xc06130

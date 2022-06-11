@@ -1,0 +1,8 @@
+Total [1] models:
+[new_unpruned_model_opt]
+    id: [32768], version: [0x526]
+    size: input [0x31000], output [0xa0], buf [0x70000], cmd [0xd7f0], weight [0xbf88a0], fw_code [0xa0]
+    addr: input [0x60000000], output [0x60031000], buf [0x600310a0], cmd [0x600a10a0], weight [0x600ae890], fw_code [0x60ca7130]
+dram_addr_end [0x60ca71d0], total bin size: [0xc06130]
+checksum: all_models.bin [0x403e3e7e]
+	0 [0x403e3e7e],

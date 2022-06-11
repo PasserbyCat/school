@@ -1,0 +1,16 @@
+{
+	"cmd_addr" : "0x600a10a0",
+	"cmd_optimize" : true,
+	"debug_mode" : false,
+	"dram_base_addr" : "0x600310a0",
+	"encryption_flag" : false,
+	"fw_code_addr" : "0x60ca7130",
+	"hw_sim" : false,
+	"input_addr" : "0x60000000",
+	"input_fmt" : "rgba8",
+	"output_addr" : "0x60031000",
+	"skip_backend" : false,
+	"sram_size" : 512,
+	"weight_addr" : "0x600ae890",
+	"weight_compress" : false
+}

@@ -1,0 +1,23 @@
+[32m[common][info][compile.cc:59][LoadCfg] Loading config.[m
+[32m[piano][info][graph_gen.cc:44][LoadBieModel] Loading bie model.[m
+[32m[piano][info][graph_gen.cc:49][LoadBieModel] Creating graph.[m
+[32m[piano][info][graph_gen.cc:84][GenerateGraph] Model [/data1/fpAnalyser/new_unpruned_model_opt.quan.wqbi.bie] is generated from optimized graph, skip graph optimization[m
+[32m[common][info][mozart_graph_gen.cc:25][UpdateGraph] Working on hardware relevant optimizations.[m
+[32m[common][info][mozart_graph_gen.cc:34][UpdateGraph] Working on graph post process[m
+[32m[cmd][info][cmd_generator.cc:352][GenCmds] Generate commands based on [53] cmd nodes[m
+[32m[cmd][info][cmd_generator.cc:1306][RemoveRedundantConfCmd] 2563 out of 13946 CONF cmds are optimized out[m
+[32m[common][info][compile.cc:310][MozartBackendCompile] input_size [200704], wt_size [12552352], cmd_size [55280], dram_size [458752], sram_size [524288], fw_code_size [160][m
+info:
+  dram_start: 1610813600
+  dram_size: 458752
+  cmd_start: 1611272352
+  cmd_size: 55280
+  input_start: 1610612736
+  input_size: 200704
+  fw_code_start: 1623879984
+  fw_code_size: 160
+  input_num: 0
+  output_num: 1
+  output_size: 160
+  output_start: 1610813440
+[32m[common][info][compile.cc:365][CompileImpl] Compilation completed.[m
