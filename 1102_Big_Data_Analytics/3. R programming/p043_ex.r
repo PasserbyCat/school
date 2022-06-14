@@ -1,4 +1,4 @@
-x=read.csv("p43_ex_score_exercise.csv",sep=",",header=T)
+x=read.csv("p043_ex_score_exercise.csv",sep=",",header=T)
 score = x[,2]
 min(score)
 max(score)

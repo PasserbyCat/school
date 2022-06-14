@@ -1,4 +1,4 @@
-x=read.csv("p95_ex_AirPollution.csv",header=T)
+x=read.csv("p095_ex_AirPollution.csv",header=T)
 rn = unique(x[,2])#取測站
 cn = unique(x[,3])#取空汙指標
 out = array(0,c(length(rn),length(cn)))
