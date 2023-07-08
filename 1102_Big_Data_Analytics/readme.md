@@ -9,15 +9,15 @@
 7. Machine learning->
 8. Deep Learning->
 
-homework1->資料清洗 : 在未知的情況下僅用資料內來決定該如何清洗
-homework2->網頁製作 : 利用Rshiny和Rplot自由設計想要的主題網頁
-homework3->期末專題報告 : 報告自己想做的東西
-homework4->延伸閱讀 : 找尋一個新創公司或軟體與AI大數據等內容相關的來報告
-homework5->專題海報
-homework6->專題錄影(影片檔過大不能放進專案管理_使用URL存放至youtube)
+homework1->資料清洗 : 在未知的情況下僅用資料內來決定該如何清洗<h>
+homework2->網頁製作 : 利用Rshiny和Rplot自由設計想要的主題網頁<h>
+homework3->期末專題報告 : 報告自己想做的東西<h>
+homework4->延伸閱讀 : 找尋一個新創公司或軟體與AI大數據等內容相關的來報告<h>
+homework5->專題海報<h>
+homework6->專題錄影(影片檔過大不能放進專案管理_使用URL存放至youtube)<h>
 
-Q&A->老師各週的提醒
+Q&A->老師各週的提醒<h>
 
-mid->期中考考題，但沒寫完
+mid->期中考考題，但沒寫完<h>
 
-final->期末專題程式碼與測資
+final->期末專題程式碼與測資<h>
